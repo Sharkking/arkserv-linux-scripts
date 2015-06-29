@@ -7,7 +7,9 @@ Setup:
 2) create 3 cronjobs
 
 @reboot sleep 90 && cd /home/arkserv && ./arkserver.sh start >/dev/null 2>&1
+
 */15 * * * * /home/arkserv/arkserver.sh backup >/dev/null 2>&1
+
 */5 * * * * /home/arkserv/arkserver.sh check >/dev/null 2>&1
 
 to ensure backups, start after machine reboot and alive checks are running
