@@ -12,8 +12,8 @@ Mod='' ## for later use
 
 #Script Settings, please edit to your needs
 
-APPPATH='/home/arkserv/ShooterGame'             #patch where the server is installed
-SERVERPATH='Binaries/Linux'                     #patch to the server binary
+APPPATH='/home/arkserv/ShooterGame'             #path to where the server is installed
+SERVERPATH='Binaries/Linux'                     #path to the server binary
 SERVICE='ShooterGameServer'                     #server binary name
 USERNAME='arkserv'                              #unix username to run the script
 SAVEPATH='/Saved'                               #map saves
